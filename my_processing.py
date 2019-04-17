@@ -21,7 +21,7 @@ im_list = []
 source_list = []
 folder = "validation"
 
-im_dir = 'C:\\Users\\Mingtai\\Desktop\\prednet\\raw\\validation\\'
+im_dir = 'PATH-HERE'
 files = list(os.walk(im_dir, topdown=False))[-1][-1]
 im_list += [im_dir + f for f in sorted(files)]
 source_list += [folder] * len(files)
